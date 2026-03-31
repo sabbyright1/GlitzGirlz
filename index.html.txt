@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glitz Girlz - Stylish Fashion for Girls</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff69b4, #ffcc00, #8a2be2, #32cd32);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      height: 90vh;
+      background: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #ff69b4;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #ff1493;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      color: #8a2be2;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border-radius: 15px;
+      overflow: hidden;
+      background: #f9f9f9;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      color: #ff69b4;
+    }
+
+    .card p {
+      margin-bottom: 10px;
+    }
+
+    .about {
+      background: #fff5fa;
+    }
+
+    .contact {
+      background: #f0fff0;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>✨ Glitz Girlz</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>Stylish Looks for Every Little Queen 👑</h2>
+    <p>Affordable casual & formal fashion for girls in Ocho Rios</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </div>
+</section>
+
+<section id="shop" class="section">
+  <h2>Our Collection</h2>
+  <div class="products">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1604917869287-3ae73c77e227">
+      <h3>Casual Dresses</h3>
+      <p>From $15</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520975922284-9d44c4e2b1f6">
+      <h3>Formal Dresses</h3>
+      <p>From $25</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+      <h3>Stylish Shoes</h3>
+      <p>From $20</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1593032465171-8d46c10d98d4">
+      <h3>Party Outfits</h3>
+      <p>From $30</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <h2>About Glitz Girlz</h2>
+  <p>
+    Glitz Girlz is your go-to fashion destination for stylish, affordable clothing and shoes for girls ages 4–12.
+    Located in and serving the beautiful Ocho Rios, Jamaica area, we bring fun, colorful, and elegant styles
+    to every young fashionista.
+  </p>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Contact Us</h2>
+  <p>📍 Ocho Rios, Jamaica</p>
+  <p>📞 Call/WhatsApp: (876) 000-0000</p>
+  <p>📧 Email: glitzgirlz@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Glitz Girlz | Made with 💖 in Jamaica</p>
+</footer>
+
+</body>
+</html>
